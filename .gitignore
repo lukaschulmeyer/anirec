@@ -1,0 +1,11 @@
+node_modules/
+dist/
+deployment/
+.env
+.env.*
+!.env.example
+.vercel/
+.cache/
+coverage/
+*.log
+.DS_Store
