@@ -65,8 +65,8 @@
       "supports": [
         "Source, screenshot and live verification provenance."
       ],
-      "bytes": 1505,
-      "sha256": "7238f5da5de7c9f87ae3543b1460caf66b1a730af46067e1426959b972dcbe5d"
+      "bytes": 1464,
+      "sha256": "a3035780be846eb2ac8be467be6a2ad83f835dc9c8e7bf213aed5999a0a440fd"
     },
     {
       "id": "public-release-verification",
@@ -79,8 +79,8 @@
       "supports": [
         "Source, screenshot and live verification provenance."
       ],
-      "bytes": 1592,
-      "sha256": "42873ffe8305f5edc10a3c07babec8ecf6f2e3987614264ebf299b3ea9093741"
+      "bytes": 1551,
+      "sha256": "80574bb698078da2c713de1f8994381988f12ad1588eed5126ac3de1a12b171a"
     }
   ],
   "claim_boundaries": [
