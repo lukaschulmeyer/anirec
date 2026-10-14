@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-14T23:42:14.949029+00:00",
+  "verified_source_commit": "d3e11823b2f495949c6028cb22a188a0a4a035d2",
+  "live_url": "https://anirec.lukasschulmeyer.com",
+  "source_url": "https://github.com/lukaschulmeyer/anirec/tree/d3e11823b2f495949c6028cb22a188a0a4a035d2",
+  "unit_tests": {
+    "passed": 147,
+    "files": 13,
+    "scope": "Synthetic fixtures, HTTP integration and component markup; no recommendation relevance study."
+  },
+  "github_ci": "https://github.com/lukaschulmeyer/anirec/actions/runs/38655474143",
+  "checks": [
+    {
+      "name": "Clean export typecheck, tests and production package",
+      "passed": true
+    },
+    {
+      "name": "Public and clean-export recommendation parity for Attack on Titan and One-Punch Man",
+      "passed": true,
+      "compared": "All 43 candidate IDs in order and scores; metadata snapshots may differ."
+    },
+    {
+      "name": "Public and clean-export real MAL search and Code Geass series details",
+      "passed": true
+    },
+    {
+      "name": "Public browser ten-card paging and Code Geass popup",
+      "passed": true,
+      "observed": "10 to 20 recommendations; two season/part entries and three related films; no console warnings or errors."
+    },
+    {
+      "name": "Actual configured credential absent from export source",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Live metadata can change.",
+    "No audience relevance study or high-traffic load test was performed.",
+    "MAL coverage, rate limits and service availability affect results."
+  ]
+}

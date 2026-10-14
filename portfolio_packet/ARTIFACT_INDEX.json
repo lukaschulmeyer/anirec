@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "packet_id": "anirec-portfolio-packet",
+  "source_commit_used_for_packet": "d3e11823b2f495949c6028cb22a188a0a4a035d2",
+  "artifacts": [
+    {
+      "id": "anirec-recommendations",
+      "type": "literal_runtime_capture",
+      "path": "portfolio_packet/assets/anirec-recommendations.webp",
+      "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+      "caption": "Combine favorites into one set of recommendations",
+      "alt_text": "AniRec showing Attack on Titan and One-Punch Man as selected inputs above ranked anime poster cards.",
+      "supports": [
+        "AniRec showing Attack on Titan and One-Punch Man as selected inputs above ranked anime poster cards."
+      ],
+      "dimensions": {
+        "width": 1265,
+        "height": 712
+      },
+      "bytes": 146058,
+      "sha256": "4b3e1999b6402e7f5208bdc9562d628aa2982bb0f529fab236167888b4b9e92b"
+    },
+    {
+      "id": "anirec-seasons",
+      "type": "literal_runtime_capture",
+      "path": "portfolio_packet/assets/anirec-seasons.webp",
+      "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+      "caption": "Open a title for the details",
+      "alt_text": "Code Geass title popup showing its synopsis, first-installment community score, artwork, and release information.",
+      "supports": [
+        "Code Geass title popup showing its synopsis, first-installment community score, artwork, and release information."
+      ],
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "bytes": 125442,
+      "sha256": "b8fe098ad7d748b9f70b68251c3b09247d1d09cb6d51fb3cd9dea8b13ba209bb"
+    },
+    {
+      "id": "anirec-movies",
+      "type": "literal_runtime_capture",
+      "path": "portfolio_packet/assets/anirec-movies.webp",
+      "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+      "caption": "Explore seasons and related films",
+      "alt_text": "Code Geass popup showing two seasons and parts with individual ratings and three separately listed related movies.",
+      "supports": [
+        "Code Geass popup showing two seasons and parts with individual ratings and three separately listed related movies."
+      ],
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "bytes": 39348,
+      "sha256": "2e73c17db48db57c24ec93050ca267207fa591006289fbab9ab52f68891e6701"
+    },
+    {
+      "id": "production-capture-proof",
+      "type": "capture_provenance",
+      "path": "portfolio_packet/production-capture-proof.json",
+      "public_path": "/project-files/anirec/production-capture-proof.json",
+      "source": "Current portfolio integration verification",
+      "caption": "AniRec capture provenance",
+      "alt_text": "Machine-readable bounded verification for AniRec.",
+      "supports": [
+        "Source, screenshot and live verification provenance."
+      ],
+      "bytes": 1505,
+      "sha256": "7238f5da5de7c9f87ae3543b1460caf66b1a730af46067e1426959b972dcbe5d"
+    },
+    {
+      "id": "public-release-verification",
+      "type": "verification_report",
+      "path": "portfolio_packet/public-release-verification.json",
+      "public_path": "/project-files/anirec/public-release-verification.json",
+      "source": "Current portfolio integration verification",
+      "caption": "AniRec verification report",
+      "alt_text": "Machine-readable bounded verification for AniRec.",
+      "supports": [
+        "Source, screenshot and live verification provenance."
+      ],
+      "bytes": 1592,
+      "sha256": "42873ffe8305f5edc10a3c07babec8ecf6f2e3987614264ebf299b3ea9093741"
+    }
+  ],
+  "claim_boundaries": [
+    "The score is relative community support, not a probability of enjoyment or measured recommendation accuracy.",
+    "The application uses deterministic scoring and no trained recommendation model.",
+    "Screenshots document a specific source commit and live metadata snapshot; data and rankings may change.",
+    "Anime artwork and MAL content belong to their respective rights holders; source publication grants no rights to those materials."
+  ]
+}

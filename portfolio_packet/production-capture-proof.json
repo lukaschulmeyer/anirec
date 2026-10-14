@@ -1,0 +1,41 @@
+{
+  "captured_at": "2026-10-14T23:42:14.949029+00:00",
+  "source_commit_used_for_packet": "d3e11823b2f495949c6028cb22a188a0a4a035d2",
+  "capture_origin": "Local production build of committed public source, using real official API responses",
+  "public_flow_revalidated_at": "https://anirec.lukasschulmeyer.com/recs?picks=mal%3A16498%2Cmal%3A30276&type=both",
+  "selected_titles": [
+    "Attack on Titan",
+    "One-Punch Man"
+  ],
+  "detail_title": "Code Geass: Lelouch of the Rebellion",
+  "transform": "Unedited viewport captures encoded as WebP at quality 90.",
+  "captures": [
+    {
+      "file": "portfolio_packet/assets/anirec-recommendations.webp",
+      "dimensions": {
+        "width": 1265,
+        "height": 712
+      },
+      "caption": "Combine favorites into one set of recommendations",
+      "sha256": "4b3e1999b6402e7f5208bdc9562d628aa2982bb0f529fab236167888b4b9e92b"
+    },
+    {
+      "file": "portfolio_packet/assets/anirec-seasons.webp",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "caption": "Open a title for the details",
+      "sha256": "b8fe098ad7d748b9f70b68251c3b09247d1d09cb6d51fb3cd9dea8b13ba209bb"
+    },
+    {
+      "file": "portfolio_packet/assets/anirec-movies.webp",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "caption": "Explore seasons and related films",
+      "sha256": "2e73c17db48db57c24ec93050ca267207fa591006289fbab9ab52f68891e6701"
+    }
+  ]
+}

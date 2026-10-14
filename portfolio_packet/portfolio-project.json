@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "anirec",
+  "slug": "anirec",
+  "title": "AniRec",
+  "type": "Application / Anime Discovery",
+  "status": "Live",
+  "role": "Creator / AI-assisted development",
+  "year": "2026",
+  "preferred_display_order": 5,
+  "delivery_kind": "live-web-app",
+  "one_liner": "Find your next anime from the shows you enjoy and recommendations from other viewers.",
+  "short_description": "Select one or more anime and browse recommendations drawn from MyAnimeList community connections. AniRec balances the selected shows, groups linked seasons, and keeps related films separate.",
+  "portfolio_framing": {
+    "homepage_card": {
+      "title": "AniRec",
+      "kicker": "Application / Anime Discovery",
+      "description": "Find your next anime from the shows you enjoy and recommendations from other viewers.",
+      "cta": "Explore AniRec"
+    },
+    "selected_project_sidebar": "Anime discovery from balanced community recommendations.",
+    "project_page_hero": {
+      "headline": "AniRec",
+      "subhead": "Turn the anime you enjoy into a collection of recommendations."
+    },
+    "overview": "AniRec searches MyAnimeList on demand and turns one or more selections into ranked poster cards. Title popups expose available metadata, individual ratings, seasons, and related films.",
+    "archive_link_box": "Live AniRec application, reproducible source, and verification."
+  },
+  "input_process_output": {
+    "input": "Selected MAL anime IDs, community recommendation counts, release relationships, and available title metadata.",
+    "process": "Normalize each release list, resolve verified show identities, combine equal-weight support across unique selected shows, and rank deterministically.",
+    "output": "Responsive poster cards, ten-at-a-time results, detailed popups, individually rated seasons and separately listed films."
+  },
+  "detail_sections": {
+    "overview_highlights": [
+      "Live official MAL search and metadata.",
+      "Equal influence across unique selected shows with overlap-sensitive ranking.",
+      "Seasons and parts grouped; related films remain independent.",
+      "Poster grid and details work on desktop and mobile."
+    ],
+    "how_it_works_summary": "Choose anime you enjoy, explore the ranked connections, and open a card to learn more.",
+    "how_it_works_steps": [
+      "Search and select one to eight titles.",
+      "Resolve linked seasons into shows and normalize the returned community recommendation counts.",
+      "Combine support using the square of the mean square root of normalized support.",
+      "Show ten cards initially, then reveal ten more until the returned candidates are exhausted.",
+      "Open details for synopsis, available metadata, season ratings and related movies."
+    ],
+    "technical_summary": "React, TypeScript and Radix Dialog provide the interface. Node.js and Express keep MAL credentials on the server. Bounded caches, in-flight deduplication and request limits reduce repeated work and expose service failures. Vite and Vercel deliver the application.",
+    "evidence_summary": "147 automated tests pass. A live two-show check matched all 43 ranked IDs and scores between the clean export and public app. Browser checks exercised paging and actual title/franchise details."
+  },
+  "links": {
+    "live": "https://anirec.lukasschulmeyer.com",
+    "download": null,
+    "download_manifest": null,
+    "gpt": null,
+    "openapi_schema": null,
+    "privacy_policy": "https://anirec.lukasschulmeyer.com/privacy",
+    "repo": "https://github.com/lukaschulmeyer/anirec",
+    "docs": [],
+    "archive": null
+  },
+  "tech_stack": [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "MyAnimeList API",
+    "Radix UI",
+    "Vite",
+    "Vercel",
+    "Vitest"
+  ],
+  "main_visual": {
+    "path": "portfolio_packet/assets/anirec-recommendations.webp",
+    "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+    "caption": "Combine favorites into one set of recommendations",
+    "alt_text": "AniRec showing Attack on Titan and One-Punch Man as selected inputs above ranked anime poster cards.",
+    "supports_claims": [
+      "AniRec showing Attack on Titan and One-Punch Man as selected inputs above ranked anime poster cards."
+    ],
+    "kind": "literal_runtime_capture",
+    "dimensions": {
+      "width": 1265,
+      "height": 712
+    }
+  },
+  "screenshots": [
+    {
+      "path": "portfolio_packet/assets/anirec-recommendations.webp",
+      "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+      "caption": "Combine favorites into one set of recommendations",
+      "alt_text": "AniRec showing Attack on Titan and One-Punch Man as selected inputs above ranked anime poster cards.",
+      "supports_claims": [
+        "AniRec showing Attack on Titan and One-Punch Man as selected inputs above ranked anime poster cards."
+      ],
+      "kind": "literal_runtime_capture",
+      "dimensions": {
+        "width": 1265,
+        "height": 712
+      }
+    },
+    {
+      "path": "portfolio_packet/assets/anirec-seasons.webp",
+      "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+      "caption": "Open a title for the details",
+      "alt_text": "Code Geass title popup showing its synopsis, first-installment community score, artwork, and release information.",
+      "supports_claims": [
+        "Code Geass title popup showing its synopsis, first-installment community score, artwork, and release information."
+      ],
+      "kind": "literal_runtime_capture",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "path": "portfolio_packet/assets/anirec-movies.webp",
+      "source": "Literal browser capture of the production build of AniRec source commit d3e11823b2f495949c6028cb22a188a0a4a035d2, using live MAL responses. The same flow was verified on the public site on October 14, 2026. WebP encoding only; no invented UI or data.",
+      "caption": "Explore seasons and related films",
+      "alt_text": "Code Geass popup showing two seasons and parts with individual ratings and three separately listed related movies.",
+      "supports_claims": [
+        "Code Geass popup showing two seasons and parts with individual ratings and three separately listed related movies."
+      ],
+      "kind": "literal_runtime_capture",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Multi-title ranking preserves equal influence and deterministic order.",
+      "evidence": "Synthetic normalization, duplicate-season, ordering and overlap tests pass; the live two-show comparison matched all 43 IDs and scores.",
+      "source": "src/engine/anime-ranker.test.ts, server/mal-service-series.test.ts and public-release-verification.json"
+    },
+    {
+      "claim": "The interface exposes real community-backed recommendations and franchise details.",
+      "evidence": "Literal production-build captures and public browser checks show ranked cards, title facts, two Code Geass seasons and three related films.",
+      "source": "production-capture-proof.json"
+    }
+  ],
+  "limitations": [
+    "Results are limited to the recommendations and metadata returned by MyAnimeList.",
+    "Missing artwork, synopsis or ratings remain unavailable.",
+    "MAL does not provide a canonical show ID; ambiguous or unusually large relationship graphs can return recoverable errors.",
+    "Provider latency, rate limits and availability remain external dependencies."
+  ],
+  "claim_boundaries": [
+    "The score is relative community support, not a probability of enjoyment or measured recommendation accuracy.",
+    "The application uses deterministic scoring and no trained recommendation model.",
+    "Screenshots document a specific source commit and live metadata snapshot; data and rankings may change.",
+    "Anime artwork and MAL content belong to their respective rights holders; source publication grants no rights to those materials."
+  ],
+  "latest_verified_commit": "d3e11823b2f495949c6028cb22a188a0a4a035d2",
+  "source_commit_used_for_packet": "d3e11823b2f495949c6028cb22a188a0a4a035d2"
+}
